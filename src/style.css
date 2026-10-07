@@ -2,14 +2,14 @@
   --primary-color: #00acdc;
 }
 
-.html,
-.body,
+
 .header,
+.logo,
+.logo__img,
 .nav,
 .nav__list,
 .nav__item,
-.nav__link,
-img {
+.nav__link {
   box-sizing: border-box;
 }
 
@@ -21,6 +21,7 @@ img {
 }
 
 body {
+  margin: 0;
   font-family: Roboto, sans-serif;
 }
 
@@ -36,8 +37,6 @@ body {
   display: flex;
   align-items: center;
 }
-
-
 
 .nav__item {
   margin-right: 20px;

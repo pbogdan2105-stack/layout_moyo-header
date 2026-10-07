@@ -2,17 +2,22 @@
   --primary-color: #00acdc;
 }
 
-html,
-body,
-header,
-nav,
-ul,
-li,
-a,
+.html,
+.body,
+.header,
+.nav,
+.nav__list,
+.nav__item,
+.nav__link,
 img {
   box-sizing: border-box;
+}
+
+.nav__list {
   margin: 0;
   padding: 0;
+  list-style: none;
+  display: flex;
 }
 
 body {
@@ -32,10 +37,7 @@ body {
   align-items: center;
 }
 
-.nav__list {
-  display: flex;
-  list-style: none;
-}
+
 
 .nav__item {
   margin-right: 20px;
